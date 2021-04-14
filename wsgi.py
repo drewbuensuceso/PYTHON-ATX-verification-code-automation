@@ -5,4 +5,4 @@ app = Flask(__name__)
 
 @app.route("/login")
 def start():
-    login.start()
+    return(login.login_loop())
